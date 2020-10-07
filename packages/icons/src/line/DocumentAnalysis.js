@@ -6,8 +6,8 @@ export default function DocumentAnalysis(props) {
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
+      x="0"
+      y="0"
       viewBox="0 0 48 48"
       dangerouslySetInnerHTML={{
         __html: ` <image
