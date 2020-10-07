@@ -116,7 +116,7 @@ export default {
   },
   about: {
     title: 'Computer vision services we offer',
-    text: `API provided as a friendly copy/paste script or SDK supported for web, android, ios`,
+    text: `API provided as a friendly copy/paste script or SDK supported for web, Android, IOS`,
     features: [
       {
         id: 'feature1',
@@ -247,7 +247,7 @@ export default {
             gradient: 'primary',
           },
           title: 'Text Data',
-          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel vehicula dui.',
+          text: 'Sophisticated annotations for text-based data',
         },
         {
           IconProps: {
@@ -271,7 +271,7 @@ export default {
             gradient: 'quaternary',
           },
           title: 'Documents',
-          text: 'Label documents with specified details',
+          text: 'Secure processing of documents',
         },
       ],
     },
