@@ -1,20 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
-import Reveal from 'react-reveal/Reveal';
+import React from "react";
+import PropTypes from "prop-types";
+import Fade from "react-reveal/Fade";
+import Reveal from "react-reveal/Reveal";
 
-import Container from '@pagerland/common/src/components/Container';
-import Typography from '@pagerland/common/src/components/Typography';
-import Box from '@pagerland/common/src/components/Box';
+import Container from "@pagerland/common/src/components/Container";
+import Typography from "@pagerland/common/src/components/Typography";
+import Box from "@pagerland/common/src/components/Box";
 
-import { PhoneImg, Images } from './styled.components';
+import { PhoneImg, Images } from "./styled.components";
 
-import phoneImg from '../../assets/Phones.png';
-import phoneImg2x from '../../assets/Phones@2x.png';
-import DownloadFrom from '../../components/DownloadFrom';
-import Liquid from '../../components/Liquids/A';
+import phoneImg from "../../assets/Phones.png";
+import phoneImg2x from "../../assets/Phones@2x.png";
+import DownloadFrom from "../../components/DownloadFrom";
+import Liquid from "../../components/Liquids/A";
 
-import data from '../../data';
+import data from "../../data";
 
 const Welcome = ({
   WrapperProps,
@@ -38,14 +38,6 @@ const Welcome = ({
           <Typography {...TitleProps}>{title}</Typography>
           <Typography {...TextProps}>{text}</Typography>
         </Fade>
-        <Box flexBox mt={4}>
-          <Fade left duration={600} delay={100} distance="30px">
-            <DownloadFrom.AppStore mr={2} />
-          </Fade>
-          <Fade right duration={600} delay={100} distance="30px">
-            <DownloadFrom.GooglePlay />
-          </Fade>
-        </Box>
       </Box>
 
       <Box {...ImagesWrapperProps}>
@@ -125,18 +117,18 @@ Welcome.propTypes = {
 
 Welcome.defaultProps = {
   WrapperProps: {
-    overflow: 'hidden',
+    overflow: "hidden",
     marginBottom: {
       _: -110,
       lg: -140,
     },
   },
   ContainerProps: {
-    display: 'flex',
-    alignItems: 'center',
+    display: "flex",
+    alignItems: "center",
     flexDirection: {
-      _: 'column',
-      lg: 'row',
+      _: "column",
+      lg: "row",
     },
     marginBottom: {
       _: 140,
@@ -144,37 +136,37 @@ Welcome.defaultProps = {
     },
   },
   ImagesWrapperProps: {
-    alignSelf: 'stretch',
-    position: 'relative',
-    width: '100%',
+    alignSelf: "stretch",
+    position: "relative",
+    width: "100%",
     zIndex: -1,
   },
   ImagesProps: {
-    paddingTop: '120.3592814371%',
+    paddingTop: "120.3592814371%",
   },
   CaptionProps: {
     flexBox: true,
-    flexDirection: 'column',
-    justifyContent: 'center',
+    flexDirection: "column",
+    justifyContent: "center",
     pt: 3,
     pb: {
       _: 3,
       lg: 5,
     },
     flex: {
-      _: '0 0 1',
+      _: "0 0 1",
       lg: `0 0 470px`,
     },
-    height: '100%',
+    height: "100%",
   },
   TitleProps: {
-    as: 'h2',
-    variant: 'h1',
+    as: "h2",
+    variant: "h1",
     mb: 4,
   },
   TextProps: {
-    variant: 'body1',
-    color: 'gray.1',
+    variant: "body1",
+    color: "gray.1",
   },
   PhoneImgProps: {
     src: phoneImg,
@@ -185,11 +177,11 @@ Welcome.defaultProps = {
     width: `242.5149700599%`,
   },
   LiquidProps: {
-    position: 'absolute',
-    top: '12px',
-    left: '-40px',
+    position: "absolute",
+    top: "12px",
+    left: "-40px",
     zIndex: 1,
-    width: '119.7604790419%',
+    width: "119.7604790419%",
   },
   LiquidComponent: Liquid,
   ...data.welcome,
