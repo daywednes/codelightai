@@ -38,7 +38,7 @@ const Landing1 = ({ url }) => (
     <Welcome name="" />
     <About name="about" />
     <Features name="features" />
-      {/*<Screenshots name="screens" />*/}
+    <Screenshots name="screens" />
       {/*<Clients name="clients" />
     <FAQ name="support" />
     <Pricing name="pricing" />
