@@ -134,6 +134,8 @@ Screenshots.defaultProps = {
       variableWidth: true,
       arrows: false,
       slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
     },
   },
   ImgProps: {
