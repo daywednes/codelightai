@@ -1,17 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
+import React from "react";
+import PropTypes from "prop-types";
+import Fade from "react-reveal/Fade";
 
-import Box from '@pagerland/common/src/components/Box';
-import Icon from '@pagerland/common/src/components/Icon';
-import Grid from '@pagerland/common/src/components/Grid';
-import Container from '@pagerland/common/src/components/Container';
-import Typography from '@pagerland/common/src/components/Typography';
-import Button from '@pagerland/common/src/components/Button';
+import Box from "@pagerland/common/src/components/Box";
+import Icon from "@pagerland/common/src/components/Icon";
+import Grid from "@pagerland/common/src/components/Grid";
+import Container from "@pagerland/common/src/components/Container";
+import Typography from "@pagerland/common/src/components/Typography";
+import Button from "@pagerland/common/src/components/Button";
 
-import data from '../../data';
-import LanderPagerLogo from '../../components/Logo';
-import DownloadFrom from '../../components/DownloadFrom';
+import data from "../../data";
+import LanderPagerLogo from "../../components/Logo";
+import DownloadFrom from "../../components/DownloadFrom";
 
 const Footer = ({
   Logo,
@@ -39,8 +39,19 @@ const Footer = ({
           </Fade>
           <Box flexBox mt={4}>
             {socialLinks?.map((socialLink, key) => (
-              <Fade left duration={600} key={socialLink.title} distance="10px" delay={100 * key}>
-                <Button as="a" href={socialLink.href} title={socialLink.title} {...SocialLinkProps}>
+              <Fade
+                left
+                duration={600}
+                key={socialLink.title}
+                distance="10px"
+                delay={100 * key}
+              >
+                <Button
+                  as="a"
+                  href={socialLink.href}
+                  title={socialLink.title}
+                  {...SocialLinkProps}
+                >
                   <Icon icon={socialLink.icon} />
                 </Button>
               </Fade>
@@ -69,14 +80,6 @@ const Footer = ({
               </Typography>
             </div>
           </Fade>
-          <Box flexBox mt={4}>
-            <Fade left duration={600} delay={100} distance="30px">
-              <DownloadFrom.AppStore mr={2} />
-            </Fade>
-            <Fade right duration={600} delay={100} distance="30px">
-              <DownloadFrom.GooglePlay />
-            </Fade>
-          </Box>
         </Box>
       </Grid>
     </Container>
@@ -135,7 +138,7 @@ Footer.propTypes = {
       PropTypes.shape({
         icon: PropTypes.elementType,
         text: PropTypes.node,
-      }),
+      })
     ),
   }),
   /**
@@ -153,7 +156,7 @@ Footer.propTypes = {
       icon: PropTypes.elementType,
       href: PropTypes.string,
       title: PropTypes.string,
-    }),
+    })
   ),
 };
 
@@ -163,45 +166,45 @@ Footer.defaultProps = {
       _: 4,
       sm: 5,
     },
-    backgroundColor: 'gray.6',
+    backgroundColor: "gray.6",
   },
   GridProps: {
     gridTemplateColumns: {
-      _: '1fr',
-      lg: 'repeat(3, 1fr)',
+      _: "1fr",
+      lg: "repeat(3, 1fr)",
     },
     gridGap: 32,
   },
   HeadingsProps: {
-    variant: 'h4',
-    as: 'h4',
-    color: 'black',
+    variant: "h4",
+    as: "h4",
+    color: "black",
     mb: {
       _: 3,
       md: 42,
     },
   },
   TypographyProps: {
-    color: 'gray.1',
+    color: "gray.1",
   },
   LogoProps: {
     mb: 30,
   },
   SocialLinkProps: {
-    color: 'primary',
+    color: "primary",
     borderWidth: 1,
-    borderColor: 'primary',
-    borderStyle: 'solid',
+    borderColor: "primary",
+    borderStyle: "solid",
     p: 0,
     mr: 2,
     width: 50,
     height: 50,
-    lineHeight: '50px',
-    textAlign: 'center',
+    lineHeight: "50px",
+    textAlign: "center",
     fontSize: 24,
   },
   IconProps: {
-    color: 'primary',
+    color: "primary",
     fontSize: 24,
     mr: 3,
   },

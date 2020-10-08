@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
+import React from "react";
+import PropTypes from "prop-types";
+import Fade from "react-reveal/Fade";
 
-import Box from '@pagerland/common/src/components/Box';
-import Icon from '@pagerland/common/src/components/Icon';
-import Grid from '@pagerland/common/src/components/Grid';
-import Container from '@pagerland/common/src/components/Container';
-import Typography from '@pagerland/common/src/components/Typography';
-import Card from '@pagerland/common/src/components/Card';
+import Box from "@pagerland/common/src/components/Box";
+import Icon from "@pagerland/common/src/components/Icon";
+import Grid from "@pagerland/common/src/components/Grid";
+import Container from "@pagerland/common/src/components/Container";
+import Typography from "@pagerland/common/src/components/Typography";
+import Card from "@pagerland/common/src/components/Card";
 
-import data from '../../data';
+import data from "../../data";
 
 const About = ({
   name,
@@ -81,7 +81,7 @@ About.propTypes = {
        * Description of future
        */
       text: PropTypes.node.isRequired,
-    }),
+    })
   ),
   /**
    * Main wrapper props
@@ -140,10 +140,10 @@ About.defaultProps = {
   },
   CaptionProps: {
     maxWidth: 770,
-    mx: 'auto',
+    mx: "auto",
     textAlign: {
-      _: 'left',
-      md: 'center',
+      _: "left",
+      md: "center",
     },
     mb: {
       _: 4,
@@ -151,35 +151,35 @@ About.defaultProps = {
     },
   },
   TitleProps: {
-    variant: 'h2',
-    as: 'h2',
+    variant: "h2",
+    as: "h2",
     mb: 3,
   },
   TextProps: {
-    variant: 'body1',
-    color: 'gray.1',
+    variant: "body1",
+    color: "gray.1",
   },
   FeaturesGridProps: {
     my: 3,
-    gridGap: '30px',
+    gridGap: "30px",
     gridTemplateColumns: {
-      _: '1fr',
-      lg: 'repeat(3, 1fr)',
+      _: "1fr",
+      lg: "repeat(3, 1fr)",
     },
   },
   CardProps: {
-    textAlign: 'center',
+    textAlign: "center",
     IconProps: {
-      fontSize: 48,
+      fontSize: 120,
     },
     TitleProps: {
-      as: 'h4',
-      variant: 'h4',
+      as: "h4",
+      variant: "h4",
       mt: 4,
       mb: 3,
     },
     TextProps: {
-      color: 'gray.1',
+      color: "gray.1",
     },
   },
 };
