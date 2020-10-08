@@ -19,18 +19,7 @@ import firstFuture from "./assets/frist-feature.svg";
 import secondFuture from "./assets/second-feature.svg";
 import thirdFuture from "./assets/third-feature.svg";
 
-import Phone1 from "./assets/screenshots/Phone-1.png";
 import Phone1x2 from "./assets/screenshots/Phone-1@2x.png";
-import Phone2 from "./assets/screenshots/Phone-2.png";
-import Phone2x2 from "./assets/screenshots/Phone-2@2x.png";
-import Phone3 from "./assets/screenshots/Phone-3.png";
-import Phone3x2 from "./assets/screenshots/Phone-3@2x.png";
-import Phone4 from "./assets/screenshots/Phone-4.png";
-import Phone4x2 from "./assets/screenshots/Phone-4@2x.png";
-import Phone5 from "./assets/screenshots/Phone-5.png";
-import Phone5x2 from "./assets/screenshots/Phone-5@2x.png";
-import Phone6 from "./assets/screenshots/Phone-6.png";
-import Phone6x2 from "./assets/screenshots/Phone-6@2x.png";
 
 import male from "./assets/clients/photo-male.jpg";
 import malex2 from "./assets/clients/photo-male@2x.jpg";
