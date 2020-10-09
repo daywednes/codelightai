@@ -64,10 +64,10 @@ export default {
       },
 
       {
-        /*
+
         to: 'screens',
-        label: 'Screens',
-      */
+        label: 'Our Work',
+
       },
       {
         /*
@@ -115,7 +115,7 @@ export default {
         {
           icon: MapMarker,
           text: textToMultiline(
-            `9207 Lakeshore Rd\nShreveport, Rhode Island\n98563 United States`
+            `159 Bel Ayre Dr, Santa Clara, CA`
           ),
         },
         {
@@ -124,7 +124,7 @@ export default {
         },
         {
           icon: Envelope,
-          text: "info@example.com",
+          text: "contact@codelight.co",
         },
       ],
     },
