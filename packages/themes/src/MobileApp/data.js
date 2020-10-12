@@ -64,10 +64,10 @@ export default {
       },
 
       {
-        /*
+
         to: 'screens',
-        label: 'Screens',
-      */
+        label: 'Output',
+
       },
       {
         /*
@@ -107,7 +107,7 @@ export default {
   },
   footer: {
     section1: {
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus dolor et dolor eleifend laoreet. Donec id nisi finibus, consequat libero vitae, imperdiet urna.`,
+      text: `Find us on our social media pages`,
     },
     contact: {
       title: "Contact",
@@ -115,7 +115,7 @@ export default {
         {
           icon: MapMarker,
           text: textToMultiline(
-            `9207 Lakeshore Rd\nShreveport, Rhode Island\n98563 United States`
+            `159 Bel Ayre Dr, Santa Clara, CA\nUnited States`
           ),
         },
         {
@@ -124,13 +124,13 @@ export default {
         },
         {
           icon: Envelope,
-          text: "info@example.com",
+          text: "contact@codelight.ai",
         },
       ],
     },
     section3: {
-      title: "Support & downloads",
-      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus dolor et dolor eleifend.`,
+      title: "",
+      text: ``,
     },
   },
   about: {
