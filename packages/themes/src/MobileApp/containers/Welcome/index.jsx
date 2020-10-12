@@ -9,9 +9,9 @@ import Box from "@pagerland/common/src/components/Box";
 
 import { PhoneImg, Images } from "./styled.components";
 
-import phoneImg from "../../assets/Phones.png";
-import phoneImg2x from "../../assets/Phones@2x.png";
-import DownloadFrom from "../../components/DownloadFrom";
+import heroBannerImg from "../../assets/hero-banner.png";
+import heroBannerImg2x from "../../assets/hero-banner.png";
+// import DownloadFrom from "../../components/DownloadFrom";
 import Liquid from "../../components/Liquids/A";
 
 import data from "../../data";
@@ -43,7 +43,7 @@ const Welcome = ({
       <Box {...ImagesWrapperProps}>
         <Images {...ImagesProps}>
           <Reveal ssrReveal ssrFadeout effect="liquid" duration={600}>
-            <LiquidComponent {...LiquidProps} />
+            {/* <LiquidComponent {...LiquidProps} /> */}
             <PhoneImg {...PhoneImgProps} />
           </Reveal>
         </Images>
@@ -169,12 +169,12 @@ Welcome.defaultProps = {
     color: "gray.1",
   },
   PhoneImgProps: {
-    src: phoneImg,
-    srcSet: `${phoneImg} 1x, ${phoneImg2x} 2x`,
+    src: heroBannerImg,
+    srcSet: `${heroBannerImg} 1x, ${heroBannerImg2x} 2x`,
     alt: data.title,
-    top: `-17%`,
-    left: `-72%`,
-    width: `242.5149700599%`,
+    top: `5%`,
+    left: `10%`,
+    width: `100%`,
   },
   LiquidProps: {
     position: "absolute",

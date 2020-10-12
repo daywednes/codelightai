@@ -13,10 +13,10 @@ import {
   About,
   Features,
   Screenshots,
-  Clients,
-  FAQ,
-  Pricing,
-  Contact,
+  // Clients,
+  // FAQ,
+  // Pricing,
+  // Contact,
 } from "@pagerland/themes/src/MobileApp/containers";
 
 import preview from "@pagerland/themes/src/MobileApp/assets/preview.png";
